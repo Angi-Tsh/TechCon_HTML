@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register for TechCon 2024</title>
+</head>
+<body>
+    <header>
+        <h1>Register for TechCon 2024</h1>
+        <nav aria-label="Main Navigation">
+          <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Complete Registration</h2>
+            <p>Join us at TechCon 2024! Please fill out: </p>
+             <form action="#" method="POST" aria-labelledby="registration-heading">
+                <h3 id="registration-heading">Attendee Information</h3>
+                
+                <div>
+                    <label for="full_name">Full Name:</label>
+                    <input type="text" id="full_name" name="full_name" required aria-required="true">
+                </div>
+                
+                <div>
+                    <label for="email_address">Email Address:</label>
+                    <input type="email" id="email_address" name="email_address" required aria-required="true">
+                </div>
+                
+                <div>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required aria-required="true" minlength="8" aria-describedby="password-hint">
+                    <small id="password-hint">Minimum 8 characters.</small>
+                </div>
+                
+                <div>
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input type="password" id="confirm_password" name="confirm_password" required aria-required="true">
+                </div>
+                
+                <div>
+                    <input type="checkbox" id="terms_conditions" name="terms_conditions" required aria-required="true">
+                    <label for="terms_conditions">I agree to the <a href="#" target="_blank" rel="noopener noreferrer">Terms and Conditions</a></label>
+                </div>
+                
+                <button type="submit">Register Now</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>copyright © 2024 TechCon. &copy;</p>
+    </footer>
+</body>
+</html>
